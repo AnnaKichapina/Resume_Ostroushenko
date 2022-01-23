@@ -10,10 +10,8 @@ body {
 }
 
 header {
-  font-family: "Kurale-Regular";
   height: 100vh;
   width: 100vw;
-  background-image: url(pictures/banner.jpg);
   background-color: black;
   display: table-cell;
   vertical-align: middle;
@@ -26,16 +24,11 @@ header {
 }
 
 h1 {
-	font-weight: 700;
+  letter-spacing: 0.4em;
+	font-size: 8vw;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #FFFFFF;
 	border-bottom-color: rgba(255, 255, 255, 0.35);
   margin-bottom: 15px;
 }
 
-@font-face {
-  font-family: "Kurale-Regular";
-  src: ("fonts/Kurale-Regular.otf") format("opentype");
-  src: ("fonts/Kurale-Regular.ttf") format("truetype");
-  src: ("fonts/Kurale-Regular.woff") format("woff");
-}
